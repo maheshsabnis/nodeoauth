@@ -6,18 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel app --out-dir dist",
-    "start": " concurrently \"mongod \" \"nodemon --exec babel-node app/index.js\""
+    "start": "nodemon --exec babel-node app/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Felistas/NodeJs-Passport-Authentication.git"
+    "url": ""
   },
-  "author": "Felistas Ngumi",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Felistas/NodeJs-Passport-Authentication/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/Felistas/NodeJs-Passport-Authentication#readme",
+  "homepage": "",
   "dependencies": {
     "body-parser": "^1.19.0",
     "concurrently": "^5.0.0",
